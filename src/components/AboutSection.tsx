@@ -32,7 +32,7 @@ const AboutSection = () => {
   return (
     <section id="about" className="py-20 bg-background">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16 fade-in">
+        <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
             Acerca de Mí
           </h2>
@@ -41,7 +41,7 @@ const AboutSection = () => {
 
         <div className="grid md:grid-cols-2 gap-12 items-start">
           {/* About Text */}
-          <div className="slide-in-up">
+          <div className="animate-slide-in-from-bottom">
             <div className="prose prose-lg max-w-none">
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 Mi curiosidad y pasión por la tecnología me han llevado a participar 
@@ -66,7 +66,7 @@ const AboutSection = () => {
           </div>
 
           {/* Experience Timeline */}
-          <div className="slide-in-up">
+          <div className="animate-slide-in-from-bottom">
             <h3 className="text-2xl font-semibold text-foreground mb-8">
               Experiencia
             </h3>

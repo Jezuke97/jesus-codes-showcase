@@ -144,14 +144,6 @@ All colors MUST be HSL.
     @apply transition-transform duration-200 hover:scale-105;
   }
 
-  .fade-in {
-    @apply animate-in fade-in duration-700;
-  }
-
-  .slide-in-up {
-    @apply animate-in slide-in-from-bottom-4 duration-500;
-  }
-
   .text-portfolio {
     color: hsl(var(--portfolio-text));
   }
@@ -169,14 +161,14 @@ All colors MUST be HSL.
   }
 
   .btn-portfolio-primary {
-    @apply bg-primary text-primary-foreground hover:bg-primary/90 px-6 py-3 rounded-xl font-medium transition-all duration-200 hover-scale;
+    @apply bg-primary text-primary-foreground hover:bg-primary/90 px-6 py-3 rounded-xl font-medium transition-all duration-200 hover:scale-105;
   }
 
   .btn-portfolio-secondary {
-    @apply bg-secondary text-secondary-foreground hover:bg-secondary/90 px-6 py-3 rounded-xl font-medium transition-all duration-200 hover-scale;
+    @apply bg-secondary text-secondary-foreground hover:bg-secondary/90 px-6 py-3 rounded-xl font-medium transition-all duration-200 hover:scale-105;
   }
 
   .portfolio-card {
-    @apply bg-card rounded-xl p-6 border shadow-sm hover-scale transition-all duration-200;
+    @apply bg-card rounded-xl p-6 border shadow-sm transition-all duration-200 hover:scale-105;
   }
 }

@@ -11,7 +11,7 @@ const HeroSection = () => {
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center portfolio-gradient">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-fade-in">
         {/* Profile Image */}
         <div className="mb-8">
           <div className="w-32 h-32 mx-auto rounded-full bg-card border-4 border-primary overflow-hidden hover-scale">
